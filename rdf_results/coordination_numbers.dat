@@ -1,0 +1,10 @@
+# Coordination number analysis: Phenothiazine - CsPbI3
+# Simulation box volume = 20321.28000 Angstrom^3
+#
+# Pair  FirstPeak_r(Angstrom)  Peak_g(r)  FirstMinimum_r(Angstrom)  CoordinationNumber
+C-Pb              6.925000     1.466510                  9.675000           4.575609
+C-I               9.225000     1.134038                 11.075000          26.563868
+N-Pb              7.025000     3.071977                  9.025000           3.987484
+N-I               5.775000     2.070843                  7.475000           7.804951
+S-Pb              6.875000     1.710661                  9.375000           3.819986
+S-I               8.075000     1.459594                  9.525000          15.369935
