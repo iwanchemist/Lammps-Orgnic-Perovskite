@@ -1,0 +1,11 @@
+# Additional analysis to run after production if desired
+# Requires a restart/data snapshot and trajectory.
+# RDF examples can be run in the main input by uncommenting.
+
+# Phenothiazine N (type 5) vs Pb (type 2)
+compute rdf_NPb all rdf 200 5 2
+fix rdfout all ave/time 100 10 1000 c_rdf_NPb[*] file rdf_NPb.dat mode vector
+
+# Phenothiazine S (type 6) vs Pb (type 2)
+compute rdf_SPb all rdf 200 6 2
+fix rdfout2 all ave/time 100 10 1000 c_rdf_SPb[*] file rdf_SPb.dat mode vector

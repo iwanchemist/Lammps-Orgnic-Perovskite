@@ -1,0 +1,21 @@
+Parameter ledger
+=================
+
+PEROVSKITE
+CsPbI3 Buckingham-Coulomb parameters:
+RSC Advances 2020, DOI 10.1039/D0RA08434D.
+q(Cs)=+1.36, q(Pb)=+2.03, q(I)=-1.13.
+A and C were converted from eV to kcal/mol for LAMMPS real units.
+
+PHENOTHIAZINE
+Neutral C12H9NS.
+3D geometry: RDKit/MMFF optimization.
+Atomic charges: RDKit Gasteiger charges; total charge ~0.
+PTZ is modeled as one rigid body.
+
+IMPORTANT
+The PTZ LJ self terms are OPLS-like starting values.
+The inorganic LJ values used to generate PTZ-inorganic cross terms are
+screening placeholders, not literature-validated CsPbI3/PTZ parameters.
+Do not interpret adsorption energies from this starter system as quantitative
+until those cross terms are validated against DFT adsorption-energy/distance scans.
